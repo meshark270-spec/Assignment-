@@ -1,0 +1,134 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMj2ke0gLyoj4/ykIWaN6fs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/meshark270-spec/Assignment-/blob/main/Simulation%3ARainfall%20%20Probability%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from random import randint\n",
+        "\n",
+        "# Example: Generate a random integer between 1 and 10 (inclusive)\n",
+        "random_integer = randint(1, 10)\n",
+        "print(random_integer)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "Z9-4GREQ83wb",
+        "outputId": "31dc4832-7b0d-4c66-d480-e6f0f0ad549c"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "current_day = 7\n",
+        "num_days_to_simulate = 30  # Default value, please adjust if needed\n",
+        "rain_probability = 0.9"
+      ],
+      "metadata": {
+        "id": "s70OKtu99EYv"
+      },
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for day in range(1, num_days_to_simulate + 1):\n",
+        "    pass"
+      ],
+      "metadata": {
+        "id": "l8zIMuSM-oaR"
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import random\n",
+        "random_number = random.random()\n",
+        "print(random_number)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "45YORVAu_Cui",
+        "outputId": "3bfccf96-c163-4599-bb1e-1395db57314c"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0.40442231080234914\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if random_number < rain_probability:\n",
+        "    print(\"Day\", day, \":Rain\")\n",
+        "else:\n",
+        "    print(\"Day\", day, \":No Rain\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6Yq8aCBk_yoX",
+        "outputId": "6ed92417-51ea-4240-b9f3-456c4ed68972"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Day 30 :Rain\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
